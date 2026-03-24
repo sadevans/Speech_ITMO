@@ -1,0 +1,72 @@
+[
+  {
+    "idx": 24,
+    "ref": "a fellow who was shut up in prison for life might do it he said but not in a case like this",
+    "beam": "a fellow who as shut up in prison for life might doit he said but not in a case like this",
+    "sf": "a fellow who as shut up in prison for life might do it he said but not in a case like this",
+    "rs": "a fellow who as shut up in prison for life might do it he said but not in a case like this"
+  },
+  {
+    "idx": 33,
+    "ref": "and why did andy call mister gurr father",
+    "beam": "and why did andy call mister gurfather",
+    "sf": "and why did andy call mister gur father",
+    "rs": "and why did andy call mister gur father"
+  },
+  {
+    "idx": 62,
+    "ref": "why your clothes don't fit you and your cap's put on all skew rew",
+    "beam": "why you'r clothes ont fit you and you'r caps put on alskiru",
+    "sf": "why you'r clothes ont fit you and you'r caps put on alskiru",
+    "rs": "why you'r clothes ont fit you and you'r caps put on alskuiru"
+  },
+  {
+    "idx": 79,
+    "ref": "that's right of course well armed",
+    "beam": "that's right of course willamed",
+    "sf": "that's right of course will amed",
+    "rs": "that's right of course will amed"
+  },
+  {
+    "idx": 81,
+    "ref": "awkward bit o country sir six miles row before you can find a place to land",
+    "beam": "alkward but a country sir six miles oro before you cand find a place to land",
+    "sf": "alkward but a country sir six miles or o before you cand find a place to land",
+    "rs": "alkward but a country sir six miles oro before you cand find a place to land"
+  },
+  {
+    "idx": 103,
+    "ref": "he swung round walked aft and began sweeping the shore again with his glass while the master and dick exchanged glances which meant a great deal",
+    "beam": "he swung round walked aff and began sweeping the shore again with his glass while the master and dick exchanged glances which met agree deal",
+    "sf": "he swung round walked aff and began sweeping the shore again with his glass while the master and dick exchanged glances which met agree deal",
+    "rs": "he swung round walked aff and began sweeping the shore again with his glass while the master and dick exchanged glances which met a greed deal"
+  },
+  {
+    "idx": 118,
+    "ref": "boy bout seventeen with a red cap no sir indeed i've not",
+    "beam": "boy about seventeen with a red cap no sir and did ave not",
+    "sf": "boy about seventeen with a red cap no sir and did ave not",
+    "rs": "boy about seventeen wit a red cap no sir and did ave not"
+  },
+  {
+    "idx": 121,
+    "ref": "i said a lad bout seventeen in a red cap like yours said gurr very shortly",
+    "beam": "i said a lad bout seventeen an a red captlic yours said gerevery shortly",
+    "sf": "i said a lad bout seventeen an a red captlic yours said gerevery shortly",
+    "rs": "i said a lad bout seventeen and a red captlic yours said gerevery shortly"
+  },
+  {
+    "idx": 143,
+    "ref": "we weighed anchor and shahrazad perceived the dawn of day and ceased saying her permitted say",
+    "beam": "we wide anchar and sherazad perceived the down of the day and ceased saying her permitted say",
+    "sf": "we wide anchar and sherazad perceived the down of the day and ceased saying her permitted say",
+    "rs": "we wide anchar and cherazad perceived the down of the day and ceased saying her permitted say"
+  },
+  {
+    "idx": 153,
+    "ref": "each that died we washed and shrouded in some of the clothes and linen cast ashore by the tides and after a little the rest of my fellows perished one by one till i had buried the last of the party and abode alone on the island with but a little provision left i who was wont to have so much",
+    "beam": "each that died we washed and shrowded in some of the clothes and linen cast a shore by the tides and after little the rest of my fellows perished one by one till i had buried the last of the party and aboade alone on the island with but a little provision left i who was wont to have so much",
+    "sf": "each that died we washed and shrowded in some of the clothes and linen cast a shore by the tides and after a little the rest of my fellows perished one by one till i had buried the last of the party and aboade alone on the island with but a little provision left i who was wont to have so much",
+    "rs": "each that died we washed and shrowded in some of the clothes and linen cast a shore by the tides and after a little the rest of my fellows perished one by one till i had buried the last of the party and aboade alone on the island with but a little provision left i who was wont to have so much"
+  }
+]
