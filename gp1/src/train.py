@@ -211,11 +211,6 @@ def validate(
 
 
 def run_training(args: argparse.Namespace) -> None:
-    if args.text_mode != 'digits':
-        raise ValueError(
-            'This baseline uses a digit-only CTC head (char_vocab). '
-            'Pass --text-mode digits or extend the vocabulary and encode_texts().'
-        )
     set_seed(args.seed)
     device = torch.device(args.device)
     if device.type == 'cuda':
