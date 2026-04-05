@@ -22,7 +22,7 @@ __all__ = ['main', 'parse_args', 'run_training']
 
 
 def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
-    p = argparse.ArgumentParser(description='Train GP1 digit CTC baseline (TensorBoard, per-speaker CER).')
+    p = argparse.ArgumentParser(description='Train GP1 model')
     root = Path(__file__).resolve().parents[2]
     data = root / 'data'
     p.add_argument('--train-csv', type=Path, default=data / 'train' / 'train.csv')
