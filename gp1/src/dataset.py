@@ -93,7 +93,6 @@ class SpokenNumbersDataset(Dataset):
 def collate_spoken_numbers(
     batch: list[dict[str, Any]],
 ) -> dict[str, Any]:
-    """Right-pad waveforms along time; keep text fields as lists."""
     waves = [b['waveform'] for b in batch]
     lengths = torch.tensor([w.shape[-1] for w in waves], dtype=torch.long)
     max_len = int(lengths.max().item())
