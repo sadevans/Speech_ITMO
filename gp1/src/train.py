@@ -233,12 +233,6 @@ def run_training(args: argparse.Namespace) -> None:
             'для GPU нужен PyTorch с CUDA и доступная видеокарта.'
         )
 
-    if device.type == 'cuda' and args.num_workers == 0:
-        print(
-            '[train] Подсказка: декодирование wav/mp3 и ресемплинг идут в DataLoader на CPU. '
-            'При высокой загрузке CPU попробуйте --num-workers 4 (или 8).'
-        )
-
     train_speakers = load_train_speakers(args.train_csv)
 
     train_tf = None if args.no_augment else make_train_waveform_augment()
