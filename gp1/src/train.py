@@ -44,7 +44,7 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
         type=str,
         choices=('digits', 'words'),
         default='digits',
-        help='CTC target: digit string (recommended for this baseline) or Russian words.',
+        help='CTC target: digit string or Russian words.',
     )
     p.add_argument('--no-augment', action='store_true', help='Disable waveform gain/noise augment.')
     p.add_argument('--no-spec-augment', action='store_true', help='Disable SpecAugment in the model.')
