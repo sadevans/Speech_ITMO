@@ -168,7 +168,6 @@ class DigitCTCModel(nn.Module):
             raise ValueError(f'Expected waveform [B, 1, T], got {tuple(waveform.shape)}')
 
         x = self.mel(waveform)
-        # torchaudio returns [B, 1, n_mels, T] for input [B, 1, T]; CNN expects [B, n_mels, T].
         if x.dim() == 4 and x.size(1) == 1:
             x = x.squeeze(1)
         x = self.amplitude_to_db(x)
